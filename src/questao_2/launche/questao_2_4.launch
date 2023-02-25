@@ -1,0 +1,4 @@
+<launch>
+	<node name="stageros" pkg="stage_ros" type="stageros" args="$(find trabalho)/src/questao_2/mapa/mapa_4.world"/>
+	<node pkg="trabalho" type="questao_2.py" name="Experimento_4" output="screen" />
+</launch>
